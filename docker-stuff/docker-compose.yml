@@ -1,0 +1,9 @@
+version: "3.5"
+
+services:
+  cpp:
+    build:
+      dockerfile: Dockerfile
+    container_name: cpp
+    volumes:
+      - ../files:/home/files
